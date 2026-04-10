@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function foo(){
+            console.log(this.name);
+        }
+        const obj1 ={ name: 'obj1'};
+        const obj2 ={ name: 'obj2'};
+        const boundFoo =foo.bind(obj1);
+        boundFoo(); //obj1
+        boundFoo.call(obj2); //obj1
+        boundFoo.apply(obj2); //obj1
+       
+    </script>
+</body>
+</html>
