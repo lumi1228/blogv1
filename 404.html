@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Lumi's Blog</title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/blogv1/assets/style-B6ppN0Ta.css" as="style"><link rel="stylesheet" href="/blogv1/assets/style-B6ppN0Ta.css">
+    <link rel="modulepreload" href="/blogv1/assets/app-a4i7gueq.js"><link rel="modulepreload" href="/blogv1/assets/404.html-Bh6gp84y.js">
+    <link rel="prefetch" href="/blogv1/assets/index.html-DGid-Dgx.js" as="script"><link rel="prefetch" href="/blogv1/assets/navigate.html-BCggMM8D.js" as="script"><link rel="prefetch" href="/blogv1/assets/index.html-CpZ0lmcb.js" as="script"><link rel="prefetch" href="/blogv1/assets/Robot项目难点与亮点总结.html-D0TZFC63.js" as="script"><link rel="prefetch" href="/blogv1/assets/compass.html-BrAmWPex.js" as="script"><link rel="prefetch" href="/blogv1/assets/h5_annualReport.html-CUJKNRov.js" as="script"><link rel="prefetch" href="/blogv1/assets/yagent.html-ATUk8Vu2.js" as="script"><link rel="prefetch" href="/blogv1/assets/万象项目难点与亮点总结.html-BKGzI9HY.js" as="script"><link rel="prefetch" href="/blogv1/assets/前端性能优化实战-html2canvas分享图片生成优化.html-BNj7Rt8J.js" as="script"><link rel="prefetch" href="/blogv1/assets/index.html-C3y6J_EH.js" as="script"><link rel="prefetch" href="/blogv1/assets/01.javascript.html-DlK3o1Ud.js" as="script"><link rel="prefetch" href="/blogv1/assets/02.javascript-introduce.html-l1BBgWDv.js" as="script"><link rel="prefetch" href="/blogv1/assets/03.basic-concept.html-BnCcU_0d.js" as="script"><link rel="prefetch" href="/blogv1/assets/04.data-type.html-CLT3NlDj.js" as="script"><link rel="prefetch" href="/blogv1/assets/05.operator.html-CKGbQIvu.js" as="script"><link rel="prefetch" href="/blogv1/assets/06.variable-scope-memory.html-C9gAaU79.js" as="script"><link rel="prefetch" href="/blogv1/assets/07.object-oriented-program.html-DcVbwJks.js" as="script"><link rel="prefetch" href="/blogv1/assets/08.create-object.html-B-0R6MRO.js" as="script"><link rel="prefetch" href="/blogv1/assets/09.function-expression.html-d8_8wM-b.js" as="script"><link rel="prefetch" href="/blogv1/assets/09.inheritance.html-Bym6cVVe.js" as="script"><link rel="prefetch" href="/blogv1/assets/10.function-expression.html-kwuD2RC5.js" as="script"><link rel="prefetch" href="/blogv1/assets/01.data-structure.html-DhnaPTmm.js" as="script"><link rel="prefetch" href="/blogv1/assets/02.time-space-complexity.html--GZ_RbZj.js" as="script"><link rel="prefetch" href="/blogv1/assets/03.stack.html-C9DQJWqU.js" as="script"><link rel="prefetch" href="/blogv1/assets/04.queue.html-COAFgGWw.js" as="script"><link rel="prefetch" href="/blogv1/assets/05.linked-list.html-BoDa5OCB.js" as="script"><link rel="prefetch" href="/blogv1/assets/06.set.html-SQVy8AcF.js" as="script"><link rel="prefetch" href="/blogv1/assets/07.dictionary.html-CWN8QqL6.js" as="script"><link rel="prefetch" href="/blogv1/assets/08.tree.html-DRSMcmEx.js" as="script"><link rel="prefetch" href="/blogv1/assets/09.graph.html-Bw7GGexm.js" as="script"><link rel="prefetch" href="/blogv1/assets/10.heap.html-DI_W-Q7i.js" as="script"><link rel="prefetch" href="/blogv1/assets/11.sort-search.html-C-nenIy9.js" as="script"><link rel="prefetch" href="/blogv1/assets/12.divide-and-conquer.html-DrbEbHBR.js" as="script"><link rel="prefetch" href="/blogv1/assets/13.dynamic-programming.html-j2SZn2f8.js" as="script"><link rel="prefetch" href="/blogv1/assets/14.greedy-algorithm.html-Cve3OIsn.js" as="script"><link rel="prefetch" href="/blogv1/assets/15.backtracking.html-T3vdqp77.js" as="script"><link rel="prefetch" href="/blogv1/assets/07.login-module.html-C1gXiXEO.js" as="script"><link rel="prefetch" href="/blogv1/assets/overview-engineering.html-Cz4VEJpw.js" as="script"><link rel="prefetch" href="/blogv1/assets/01.meet-fullstack.html-vdCuKPY5.js" as="script"><link rel="prefetch" href="/blogv1/assets/03.tool-webpack.html-C2k5XVin.js" as="script"><link rel="prefetch" href="/blogv1/assets/04.tool-gulp.html-D4t1HmKS.js" as="script"><link rel="prefetch" href="/blogv1/assets/05.tool-yeoman.html-BmIJAlzn.js" as="script"><link rel="prefetch" href="/blogv1/assets/06.koa-framework.html-CziY71za.js" as="script"><link rel="prefetch" href="/blogv1/assets/02.project-require.html-Cgvss82y.js" as="script"><link rel="prefetch" href="/blogv1/assets/01.JS-code.html-Oi4uRkez.js" as="script"><link rel="prefetch" href="/blogv1/assets/02.ES-code.html-CsFIO-Tj.js" as="script"><link rel="prefetch" href="/blogv1/assets/03.readcode.html-DO8IOvcJ.js" as="script"><link rel="prefetch" href="/blogv1/assets/index.html-CztxwZXS.js" as="script"><link rel="prefetch" href="/blogv1/assets/05.http.html-k21ogHCS.js" as="script"><link rel="prefetch" href="/blogv1/assets/01.vue-use.html-BjnN0Uly.js" as="script"><link rel="prefetch" href="/blogv1/assets/02.vue-theory.html-dVWquwqe.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-33d3430e><main class="page" data-v-33d3430e><div vp-content data-v-33d3430e><h1 data-v-33d3430e>404</h1><blockquote data-v-33d3430e>There&#39;s nothing here.</blockquote><a class="route-link" href="/blogv1/" data-v-33d3430e>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/blogv1/assets/app-a4i7gueq.js" defer></script>
+  </body>
+</html>
