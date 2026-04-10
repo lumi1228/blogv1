@@ -6,7 +6,7 @@ import { sidebar } from './sidebar.js'
 export default defineUserConfig({
   bundler: viteBundler(),
   colorMode: 'light',//'auto' | 'light' | 'dark'
-  base: '/blog/',  
+  base: '/blogv1/',  
   lang: 'zh-CN',
   title: 'Lumi\'s Blog',
   description: '这是我的第一个 VuePress 站点',
